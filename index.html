@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mavi Home Renovations | Brampton, Ontario</title>
+  <meta name="description" content="Mavi Home Renovations provides professional home renovation services in Brampton, Ontario and surrounding areas.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#home">MAVI<span>HOME</span></a>
+      <button class="menu" aria-label="Open menu">☰</button>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content container">
+        <p class="eyebrow">BRAMPTON • ONTARIO</p>
+        <h1>Transform Your Home.<br><span>Love Where You Live.</span></h1>
+        <p class="hero-text">Professional home renovations with quality workmanship, thoughtful design, and attention to every detail.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#contact">Get a Free Quote</a>
+          <a class="btn secondary" href="tel:+16474568058">Call Now</a>
+          <a class="btn secondary" href="#services">Explore Services</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT WE DO</p>
+          <h2>Complete Home Renovation Services</h2>
+          <p>From one room to a complete transformation, we help bring your renovation ideas to life.</p>
+        </div>
+        <div class="cards">
+          <article class="card"><div class="icon">⌂</div><h3>Full Home Renovations</h3><p>Complete renovations planned and delivered with care from start to finish.</p></article>
+          <article class="card"><div class="icon">▦</div><h3>Kitchen Renovations</h3><p>Modern, functional kitchens designed around your lifestyle and space.</p></article>
+          <article class="card"><div class="icon">◈</div><h3>Bathroom Renovations</h3><p>Beautiful bathroom upgrades with a clean, modern finish.</p></article>
+          <article class="card"><div class="icon">⌂</div><h3>Basement Finishing</h3><p>Turn your basement into a comfortable, useful living space.</p></article>
+          <article class="card"><div class="icon">▤</div><h3>Flooring</h3><p>Professional flooring installation for a fresh and finished look.</p></article>
+          <article class="card"><div class="icon">✦</div><h3>Painting & Finishing</h3><p>Interior painting and finishing touches that complete your renovation.</p></article>
+          <article class="card"><div class="icon">+</div><h3>Drywall & Repairs</h3><p>Quality drywall work, repairs, preparation, and finishing.</p></article>
+          <article class="card"><div class="icon">↗</div><h3>Home Improvements</h3><p>Custom improvements and upgrades tailored to your home.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="dark section">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">ABOUT MAVI</p>
+          <h2>Built Around Quality & Trust</h2>
+          <p>Mavi Home Renovations is a Brampton-based renovation business focused on professional workmanship and a smooth customer experience.</p>
+          <p>Whether you're refreshing a single room or planning a complete home transformation, we approach every project with attention to detail and pride in our work.</p>
+          <a class="btn primary" href="tel:+16474568058">Call Mavi Home Renovations</a>
+        </div>
+        <div class="features">
+          <div><strong>01</strong><span>Professional Workmanship</span></div>
+          <div><strong>02</strong><span>Quality-Focused Approach</span></div>
+          <div><strong>03</strong><span>Clear Communication</span></div>
+          <div><strong>04</strong><span>Serving Brampton & Area</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">OUR WORK</p>
+          <h2>Projects That Make a Difference</h2>
+          <p>Add your real project photos here when they're ready.</p>
+        </div>
+        <div class="gallery">
+          <div class="photo">Kitchen Renovation</div>
+          <div class="photo">Modern Bathroom</div>
+          <div class="photo">Finished Basement</div>
+          <div class="photo">Full Home Renovation</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <p class="eyebrow">READY TO RENOVATE?</p>
+        <h2>Let's Build a Home You'll Love.</h2>
+        <a class="btn light" href="#contact">Request a Free Quote</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Let's Talk About Your Project</h2>
+          <p>Tell us what you'd like to renovate and we'll get back to you about your project.</p>
+          <p class="quick-contact"><a href="tel:+16474568058">📞 +1 647-456-8058</a> &nbsp; <a href="mailto:mavikitchencabinets@gmail.com">✉ mavikitchencabinets@gmail.com</a></p>
+          <div class="contact-info">
+            <p><strong>Location</strong><br>6720 Hwy 7, Woodbridge, ON L4H 4X8, Canada</p>
+            <p><strong>Phone</strong><br><a class="contact-link" href="tel:+16474568058">+1 647-456-8058</a></p>
+            <p><strong>Email</strong><br><a class="contact-link" href="mailto:mavikitchencabinets@gmail.com">mavikitchencabinets@gmail.com</a></p>
+          </div>
+        </div>
+        <form onsubmit="sendQuote(event)">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email" required>
+          <input type="tel" id="phone" placeholder="Phone number">
+          <select id="service">
+            <option value="">Select a service</option>
+            <option>Full Home Renovation</option>
+            <option>Kitchen Renovation</option>
+            <option>Bathroom Renovation</option>
+            <option>Basement Finishing</option>
+            <option>Flooring</option>
+            <option>Painting & Finishing</option>
+            <option>Drywall & Repairs</option>
+            <option>Other</option>
+          </select>
+          <textarea id="message" rows="5" placeholder="Tell us about your project"></textarea>
+          <button class="btn primary" type="submit">Request a Quote</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <div><div class="logo">MAVI<span>HOME</span></div><p>Professional home renovations in Brampton, Ontario.</p></div>
+      <p>© <span id="year"></span> Mavi Home Renovations. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
